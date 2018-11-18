@@ -1,0 +1,57 @@
+header {
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.hero__image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/hero-image.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hero__text {
+    width: auto;
+    height: auto;
+    color: white;
+    font-size: 2em;
+}
+
+.hero__text span{
+    color: rgb(51, 168, 51);
+}
+
+.hero__button{
+    width: 200px;
+    height: 50px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    outline: 0;
+    font-size: 25px;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.hero__button:hover {
+    background-color: rgb(51, 168, 51);
+    transition: 0.4s;
+}
+
+@media screen and (max-width: 550px){
+    .hero__text {
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 350px){
+    .hero__text {
+        font-size: 0.75em;
+    }
+}

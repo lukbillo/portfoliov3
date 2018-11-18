@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+body,html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    scroll-behavior: smooth;
+    background-color: #000;
+}
+
+/* .content {
+    margin: 0;
+    padding: 1px 16px;
+    height: 5000px;
+    background-color: #202020;
+    position: static;
+} */
+
+.content {
+    margin: 0 auto;
+    width: 90%;
+    height: 1000px;
+    background-color: #202020;
+}
