@@ -17,7 +17,7 @@ ul {
 }
 
 .sidebar__menu a {
-    display: block;
+    display: flex;
     color: #000;
     padding: 16px;
     text-decoration: none;
@@ -38,32 +38,31 @@ ul {
     justify-content: flex-end;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 730px) {
     .sidebar__menu {
         width: 100%;
         height: auto;
-        position: relative;
+        position: sticky;
     }
 
     .sidebar__menu a {
         float: left;
-        font-size: 12px;
+        height: ;
+        font-size: 1em;
     }
 
     .main__content {
         margin-left: 0;
     }
 
-    .social__icon img {
-        width: 15px;
-    }
 }
 
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 480px) {
     .sidebar__menu a {
+        display: block;
         text-align: center;
         float: none;
-        font-size: 13px;
+        font-size: 1em;
     }
 
     .social__icon {
