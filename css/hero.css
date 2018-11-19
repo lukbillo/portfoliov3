@@ -36,6 +36,9 @@ header {
     outline: 0;
     font-size: 25px;
     font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 7px;
 
 }
 
