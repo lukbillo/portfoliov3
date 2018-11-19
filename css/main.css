@@ -32,3 +32,19 @@ footer{
     height: auto;
     background-color: #fff;
 }
+
+.about {
+    background-color: red;
+}
+
+.hobbies {
+    background-color: blue;
+}
+
+.skills {
+    background-color: yellow;
+}
+
+.projects {
+    background-color: green;
+}
