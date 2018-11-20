@@ -9,27 +9,55 @@ html {
     height: 100%;
     width: 100%;
     scroll-behavior: smooth;
-    background-color: #505050;
+    background-color: #fff;
 }
 
 h2 {
     text-align: center;
-    font-size: 3em;
+    font-size: 2em;
     padding-top: 64px;
+    color: #1F2433;
+    font-family: 'Raleway Bold', sans-serif;
 }
+
+
+.content {
+    margin: 0 auto;
+    width: 100%;
+    height: 600px;
+    background-color: #fff;
+    border-bottom: 2px solid black;
+    top: 0;
+}
+
+.projects,
+.skills {
+    background-color: #f5f5f5;
+}
+
+/************************* FOOTER **********************/
 
 footer {
     width: 100%;
     height: 200px;
-    text-align: end;
-    background-color: #000;
+    background-color: #191D29;
+    text-align: center;
 }
 
-.content {
+footer p {
+    text-transform: uppercase;
+    font-family: 'Raleway Bold', sans-serif;
+    color: #697BAD;
+}
+
+p>span {
+    color: #14FF26;
+}
+
+.contact__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin: 0 auto;
-    margin-top: 3em;
-    width: 90%;
-    height: auto;
-    background-color: #fff;
-    padding-bottom: 20px;
+    padding-top: 100px;
 }
