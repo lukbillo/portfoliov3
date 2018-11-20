@@ -40,6 +40,7 @@ ul {
 /************************ media queries ***************************/
 @media screen and (max-width: 750px) {
     .sidebar__menu {
+        display: block;
         width: 100%;
         height: auto;
         position: sticky;
