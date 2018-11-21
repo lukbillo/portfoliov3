@@ -35,7 +35,7 @@ h2 {
     margin-top: 0;
 }
 
-.content p{
+.content p {
     margin-left: 15%;
     margin-right: 15%;
     padding-top: 10%;
@@ -47,15 +47,23 @@ h2 {
     background-color: #f5f5f5;
 }
 
-.projects img:hover{
+.projects img:hover {
     box-shadow: 0 0 20px 0px black;
     transition: 0.3s;
+    transform: scale(1.03);
 }
-@media screen and (max-width: 770px){
-    h2{
+
+
+@media screen and (max-width: 770px) {
+    h2 {
         padding-top: 265px;
     }
+    .content {
+        height: auto;
+        padding-bottom: 1em;
+    }
 }
+
 /************************* FOOTER **********************/
 
 footer {
